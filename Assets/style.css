@@ -1,0 +1,51 @@
+.mainContainer {
+    width: 95%;
+    margin: auto;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: black;
+}
+
+.nav-link {
+    color: #edf2f4;
+}
+.navbar-brand{
+    font-size: 150%;
+
+}
+.btn {
+    border-radius: 12px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: #090809;
+}
+.cardsContainer {
+    width: 80%;
+    margin: auto;
+}
+
+.card-body {
+    background-color: black;
+}
+
+.fa-github,
+.fa-linkedin-square {
+ font-size: 175%;
+}
+
+.resume-header {
+    text-align: center;
+    color: black;
+}
+
+.resume {
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+}
+
+.footer {
+    width: 100%;
+}
