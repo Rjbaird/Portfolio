@@ -3,9 +3,12 @@
     margin: auto;
     color: white;
     font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    text-align: left;
     background-color: black;
 }
-
+  
+  
 .nav-link {
     color: #edf2f4;
 }
@@ -22,7 +25,7 @@
     background-color: #090809;
 }
 .cardsContainer {
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 
@@ -46,6 +49,16 @@
     height: auto;
 }
 
+.portfolio-block.cv .group .organization {
+    font-size: .85em;
+    background-color: #0ea0ff;
+    display: inline-block;
+    color: #fff;
+    padding: 2px 8px;
+    border-radius: 2em;
+  }
+  
+  
 .footer {
     width: 100%;
 }

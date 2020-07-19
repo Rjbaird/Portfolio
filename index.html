@@ -20,8 +20,10 @@
 <!-- ----------------------- UI & UX Ideas and Request ----------------------- -->
 
 <!-- Ideas -->
+<!-- Use the github API to update "Last Update: in projects page" -->
 
-<!-- Request -->
+<!-- TODOs -->
+
 
 <!-- Links & References -->
 
@@ -31,13 +33,13 @@
     <header>
         <nav class="navbar navbar-dark bg-dark">
             <a class="navbar-brand" href="index.html">
-                <img src="Assets/profile_pic.jpg" width="30" height="30"
+                <img src="Assets/images/profile_pic.jpg" width="30" height="30"
                     class="d-inline-block align-top rounded-circle " alt="" loading="lazy">&nbsp;Ryan Baird</a>
             <form class="form-inline">
                 <button class="btn mr-2 btn-lg" type="button"><a class="nav-link" href="index.html">Home</a></button>
                 <button class="btn mr-2 btn-lg" type="button"><a class="nav-link"
-                        href="project.html">Projects</a></button>
-                <button class="btn mr-2 btn-lg" type="button"><a class="nav-link" href="resume.html">Resume</a></button>
+                        href="routes/project.html">Projects</a></button>
+                <button class="btn mr-2 btn-lg" type="button"><a class="nav-link" href="routes/resume.html">Resume</a></button>
             </form>
         </nav>
     </header>
@@ -46,36 +48,41 @@
     <main class="jumbotron jumbotron-fluid">
         <article class="container">
             <h1 class="display-3">Hey I'm Ryan</h1>
-            <p class="lead">Welcome to my web development portfolio</p>
+            <p class="lead">Welcome to my development portfolio</p>
             <div class="text-center">
-                <img src="Assets/profile_pic.jpg" width="300" height="300" class="rounded-circle" alt="Profile Picture">
+                <img src="Assets/images/profile_pic.jpg" width="300" height="300" class="rounded-circle" alt="Profile Picture">
             </div>
             <hr class="my-2">
             <p></p>
         </article>
-        <article class="cardsContainer">
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h3 class="card-title">Click the link below for my projects on Github</h3>
-                            <p class="card-text"></p>
-                            <a href="https://github.com/Rjbaird" class="btn mr-2 btn-primary btn-lg fa fa-github"> GitHub</a>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+              <article class="cardsContainer">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title">Click the link below for my projects on Github</h3>
+                                <p class="card-text"></p>
+                                <a href="https://github.com/Rjbaird" class="btn mr-2 btn-primary btn-lg fa fa-github"> GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title">Click the link below for my Linkedin and resume</h3>
+                                <p class="card-text"></p>
+                                <a href="https://www.linkedin.com/in/bairdryan/"
+                                    class="btn mr-2 btn-primary btn-lg fa fa-linkedin-square"> Linkedin</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h3 class="card-title">Click the link below for my Linkedin and resume</h3>
-                            <p class="card-text"></p>
-                            <a href="https://www.linkedin.com/in/bairdryan/"
-                                class="btn mr-2 btn-primary btn-lg fa fa-linkedin-square"> Linkedin</a>
-                        </div>
-                    </div>
-                </div>
+            </article>
             </div>
-        </article>
+          </div>
+        
     </main>
 
     <!-- ----------------------- Footer ----------------------- -->
