@@ -1,7 +1,6 @@
 
 # Developer Portfolio
     
-# Description:
 Welcome to my original Developer Portfolio! Feel free to check out my completed projects.
 
 # Porftolio Contents:
